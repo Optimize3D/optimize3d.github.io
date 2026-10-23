@@ -30,3 +30,9 @@ html[lang=en] .feature-media:after{content:"Technology concept"}html[lang=en] .c
 @media(max-width:760px){.optree-grid{grid-template-columns:1fr;gap:20px}.optree-copy{padding:24px}.optree-copy h3{font-size:23px}.optree-card figcaption{padding:12px 24px;font-size:11px}.optree-detail-grid{grid-template-columns:1fr;gap:26px}.optree-details>summary{font-size:15px}}
 
 .optree-section .section-head p strong{display:block;color:#e5eaf1;font-weight:500;margin-bottom:10px}
+
+/* Research access and the latest accepted AI paper. */
+.home-nav .nav-research{white-space:nowrap}.research-papers-grid.has-latest{grid-template-columns:repeat(2,minmax(0,1fr))}.research-concept{position:relative}.research-concept>span{position:absolute;right:12px;bottom:10px;background:#101114d9;color:#edf3fa;font-size:10px;padding:4px 8px;border-radius:5px}
+@media(min-width:761px) and (max-width:1150px){.home-nav{gap:20px}.home-nav .links{gap:16px;font-size:13px}.home-nav .nav-cta{font-size:13px;padding:10px 14px}}
+@media(min-width:761px) and (max-width:980px){.home-nav{justify-content:space-between}.home-nav .menu{display:block;background:#ffffff0d;border:1px solid #ffffff20;color:white;padding:7px 13px;border-radius:7px;font-size:14px}.home-nav .links{display:none;position:absolute;top:79px;left:0;right:0;background:#181a1f;padding:20px;gap:0;align-items:stretch;border-bottom:1px solid var(--line)}.home-nav .links.open{display:flex;flex-direction:column}.home-nav .links a{padding:13px 10px}.home-nav .nav-cta{margin:10px 0 0}}
+@media(max-width:760px){.research-papers-grid.has-latest{grid-template-columns:1fr}}

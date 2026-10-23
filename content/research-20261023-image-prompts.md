@@ -1,0 +1,11 @@
+# Research concept illustrations
+
+Built-in image_gen; generated 2026-10-23. Files are stored in assets/images/research/. These illustrations explain research topics; they are not paper-original figures, model predictions or experimental results.
+
+## model-comparison-2026-concept-v1.webp
+
+Use case: scientific-educational. Website research thumbnail, wide 16:9, white background, crisp small discrete 3D points. An intuitive isometric shipyard scene showing a large steel ship block, a tower crane beside it, pipe stacks and low work platforms, with clear separated object classes. One unified scene with cyan points for ship block, navy points for crane, orange points for pipes, purple points for work platforms and gray points for ground. An educational visualization of semantic grouping of shipyard point-cloud objects. No solid photorealistic surfaces; every surface formed from tiny dots. Generous margin, clean readable industrial composition. No text, figure numbers, labels, metrics, arrows, flowcharts, logos, people, comparison panels or invented charts. This is an explanatory concept, not actual results from any deep learning algorithm and not a claim about comparative accuracy.
+
+## lng-plane-2026-concept-v1.webp
+
+Use case: scientific-educational. Website research thumbnail, wide 16:9, white background. An intuitive isometric cutaway of the interior of an LNG carrier cargo containment tank, showing three large planar interior wall surfaces and a flat floor, with restrained fine lining panel seams. Render the entire geometry using tiny discrete 3D point-cloud dots. Highlight the three detected planar wall regions separately in cyan, muted orange and navy blue, and the floor in pale gray. Show a subtle transparent flat rectangular plane fitted to one of the wall point regions to communicate plane detection, not distortion or quality deviations. Clean editorial educational visualization, ample margins, clear geometric simplicity. No external whole vessel, people, fire, explosions, text, labels, figure numbers, axes, arrows, flowcharts, measurements, color scale or logo. A conceptual illustration of point-cloud plane extraction for LNG tank shape review, not an actual scan, experiment or benchmark.

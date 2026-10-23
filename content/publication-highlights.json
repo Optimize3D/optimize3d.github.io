@@ -1,5 +1,55 @@
 [
   {
+    "id": "paper-lng-plane-2026",
+    "year": "2026",
+    "record_date": "2026.11",
+    "status": "accepted",
+    "journal": "Journal of Mechanical Science and Technology",
+    "title": "Plane Detection and Analysis using 3D Point Clouds for Quality Control of LNG Carrier Cargo Containment Systems",
+    "source": "https://optlab.notion.site/95231c2acf844360a751f4de2417d1dd",
+    "doi": "",
+    "image": "lng-plane-2026-concept-v1.webp",
+    "image_kind": "ai-generated-concept",
+    "figure": "",
+    "headline": {
+      "ko": "LNG 화물창의 평면 검출을 품질검토로 연결",
+      "en": "Plane extraction for LNG cargo-tank quality review"
+    },
+    "summary": {
+      "ko": "LNG 운반선 화물창의 3차원 포인트클라우드에서 평면을 검출하고 분석해 품질관리에 활용하는 연구입니다. 형상 데이터를 바탕으로 화물창 구조의 검사와 검토를 지원하는 방법을 다룹니다.",
+      "en": "This study investigates plane detection and analysis in 3D point clouds for quality control of LNG carrier cargo containment systems, connecting scanned geometry to structural inspection and review."
+    },
+    "caption": {
+      "ko": "화물창 점군의 평면 구분을 표현한 AI 생성 개념 이미지",
+      "en": "AI-generated concept of planar regions in a cargo-tank point cloud"
+    }
+  },
+  {
+    "id": "paper-model-comparison-2026",
+    "year": "2026",
+    "record_date": "2026.10",
+    "status": "accepted",
+    "journal": "International Journal of Naval Architecture and Ocean Engineering",
+    "title": "Comparative Analysis of Object-wise Recognition Characteristics and Efficiency of Deep Learning Models with Different Feature Extraction Mechanisms for 3D Semantic Segmentation in Shipyard Environments",
+    "source": "https://optlab.notion.site/400fcba8a1a1806dbbd2cd1d5b1124b1",
+    "doi": "",
+    "image": "model-comparison-2026-concept-v1.webp",
+    "image_kind": "ai-generated-concept",
+    "figure": "",
+    "headline": {
+      "ko": "조선소 객체에 맞는 3D AI 모델 비교",
+      "en": "Comparing 3D AI models for shipyard objects"
+    },
+    "summary": {
+      "ko": "조선소 3차원 점군의 의미론적 분할을 대상으로, 특징 추출 방식이 다른 딥러닝 모델의 객체별 인식 특성과 처리 효율을 비교한 연구입니다. 현장 객체와 활용 목적에 맞는 모델 선택의 근거를 다룹니다.",
+      "en": "This study compares object-wise recognition characteristics and processing efficiency across deep-learning models with different feature-extraction mechanisms for 3D semantic segmentation in shipyard environments."
+    },
+    "caption": {
+      "ko": "조선소 객체의 의미론적 구분을 표현한 AI 생성 개념 이미지",
+      "en": "AI-generated concept of semantic grouping in a shipyard point cloud"
+    }
+  },
+  {
     "id": "paper-support-2026",
     "doi": "10.3744/SNAK.2026.63.3.191",
     "image": "support-2026.svg",
@@ -141,6 +191,31 @@
     "caption": {
       "ko": "왼쪽: 점군 정합 · 오른쪽: 평면 인식",
       "en": "Left: scan registration · Right: plane recognition"
+    }
+  },
+  {
+    "id": "paper-spatial-2023",
+    "year": "2023.12",
+    "status": "published",
+    "journal": "한국해양공학회지",
+    "journal_en": "Journal of Ocean Engineering and Technology",
+    "title": "Point Cloud-Based Spatial Environment Development for Near Real-Time Erection Simulation in Shipyards",
+    "source": "https://doi.org/10.26748/KSOE.2023.031",
+    "doi": "10.26748/KSOE.2023.031",
+    "image": "spatial-2023.svg",
+    "image_kind": "paper-original",
+    "figure": "Fig. 4(b), right panel",
+    "headline": {
+      "ko": "현장 스캔을 반영한 탑재 시뮬레이션",
+      "en": "Erection simulation informed by field scans"
+    },
+    "summary": {
+      "ko": "선박의 레이저 스캔 점군과 설계 데이터를 결합한 공간 환경을 구축하고, LNG 탱크 탑재 과정의 간섭·충돌을 시뮬레이션했습니다. 설계 데이터만으로 드러나지 않는 현장 구조물을 반영해 탑재 전 검토의 필요성을 확인했습니다.",
+      "en": "Laser-scanned vessel geometry and design data form a spatial environment for simulating interference and collisions during LNG-tank erection. The case study identifies obstructions not represented in the design data and examines their implications before loading."
+    },
+    "caption": {
+      "ko": "논문에 수록된 선박 점군 기반 공간 모델",
+      "en": "Published vessel spatial model derived from point-cloud data"
     }
   },
   {

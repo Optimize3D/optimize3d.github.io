@@ -1,5 +1,19 @@
 const optimize3dPapers = [
   {
+    year: "2026.11",
+    journal: "Journal of Mechanical Science and Technology",
+    title: "Plane Detection and Analysis using 3D Point Clouds for Quality Control of LNG Carrier Cargo Containment Systems",
+    url: "https://optlab.notion.site/95231c2acf844360a751f4de2417d1dd",
+    status: "accepted"
+  },
+  {
+    year: "2026.10",
+    journal: "International Journal of Naval Architecture and Ocean Engineering",
+    title: "Comparative Analysis of Object-wise Recognition Characteristics and Efficiency of Deep Learning Models with Different Feature Extraction Mechanisms for 3D Semantic Segmentation in Shipyard Environments",
+    url: "https://optlab.notion.site/400fcba8a1a1806dbbd2cd1d5b1124b1",
+    status: "accepted"
+  },
+  {
     year: "2026.06",
     journal: "대한조선학회 논문집",
     title: "3차원 포인트 클라우드 기반 객체 탐지와 공간 데이터 후처리 알고리즘을 활용한 선박 블록 지지대 설치 정확도 검사"
@@ -38,6 +52,13 @@ const optimize3dPapers = [
     year: "2025.02",
     journal: "대한조선학회 논문집",
     title: "선박블록 3차원 스캐닝 데이터 처리를 위한 오픈 소스 알고리즘 기반 포인트 클라우드 후처리 방법 및 적용"
+  },
+  {
+    year: "2023.12",
+    journal: "한국해양공학회지",
+    title: "Point Cloud-Based Spatial Environment Development for Near Real-Time Erection Simulation in Shipyards",
+    url: "https://doi.org/10.26748/KSOE.2023.031",
+    status: "published"
   },
   {
     year: "2023.10",
@@ -85,14 +106,32 @@ const optimize3dPapers = [
     title: "비접촉식 3D 스캐너를 이용한 복합재료 소형선박의 품질관리 기법"
   },
   {
+    year: "2020.06",
+    journal: "대한산업공학회지",
+    title: "시스템 다이내믹스를 이용한 수주형 산업에서의 융복합 스마트 기술에 대한 미래가치 분석",
+    url: "https://doi.org/10.7232/JKIIE.2020.46.3.200"
+  },
+  {
     year: "2019.12",
     journal: "한국기계기술학회지",
     title: "광폭 고속 활주선 선형개발에 관한 연구"
   },
   {
+    year: "2019.09",
+    journal: "한국정밀공학회지",
+    title: "전과정평가에 의한 복합소재 선체구조 경량화 효과와 환경영향 분석",
+    url: "https://optlab.notion.site/1b227c4c0f5244d592d53513ac750170"
+  },
+  {
     year: "2018.04",
     journal: "International Journal of Advanced Manufacturing and Technology",
     title: "An analysis of shipyard spatial arrangement planning problems and a spatial arrangement algorithm considering free space and unplaced block"
+  },
+  {
+    year: "2017.11",
+    journal: "한국정밀공학회지",
+    title: "복합재료 소형선박의 지속가능한 설계를 위한 전과정평가 사례 연구",
+    url: "https://jkspe.or.kr/journal/view.php?number=6076"
   },
   {
     year: "2017.06",
@@ -242,6 +281,8 @@ const optimize3dPapers = [
 ];
 
 const optimize3dJournalEn = {
+  "한국정밀공학회지": "Journal of the Korean Society for Precision Engineering",
+
   "대한조선학회 논문집": "Journal of the Society of Naval Architects of Korea",
   "해양환경안전학회지": "Journal of the Korean Society of Marine Environment & Safety",
   "한국기계기술학회지": "Journal of Korean Society of Mechanical Technology",
@@ -255,6 +296,10 @@ const optimize3dJournalEn = {
 };
 
 const optimize3dTitleEn = {
+  "시스템 다이내믹스를 이용한 수주형 산업에서의 융복합 스마트 기술에 대한 미래가치 분석": "Simulation of Future Technology Factors of Convergence Technology in Engineering-to-Order Industries Using System Dynamics",
+  "전과정평가에 의한 복합소재 선체구조 경량화 효과와 환경영향 분석": "Lightweighting effects and environmental impacts of composite hull structures through life cycle assessment",
+  "복합재료 소형선박의 지속가능한 설계를 위한 전과정평가 사례 연구": "A Study on the Case of Life Cycle Assessment for a Sustainable Design of a Composite Small Craft",
+
   "3차원 포인트 클라우드 기반 객체 탐지와 공간 데이터 후처리 알고리즘을 활용한 선박 블록 지지대 설치 정확도 검사": "Inspection of ship block support installation accuracy using 3D point-cloud object detection and spatial data post-processing algorithms",
   "위상 데이터 분석 기반 선박 블록의 대용량 3차원 포인트 클라우드 경량화 및 품질 분석": "Large-scale 3D point-cloud simplification and quality analysis of ship blocks based on topological data analysis",
   "3차원 포인트 클라우드 기반 V-개선 용접선 검출 기법 및 비전 센서 성능 분석": "V-groove weld line detection using 3D point clouds and vision sensor performance analysis",
@@ -330,7 +375,7 @@ function appendPublicationRow(table, paper, locale) {
   const displayTitle = optimize3dPublicationText(paper, "title", locale);
   const link = document.createElement("a");
   link.className = "publication-title-link";
-  link.href = optimize3dScholarLink(displayTitle);
+  link.href = paper.url || optimize3dScholarLink(displayTitle);
   link.target = "_blank";
   link.rel = "noreferrer";
   link.textContent = displayTitle;
